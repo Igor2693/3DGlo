@@ -3,7 +3,6 @@ const timer = (deadline) => {
     const timerMinutes = document.getElementById('timer-minutes')
     const timerSeconds = document.getElementById('timer-seconds')
     
-
     const zero = (elem) => {
         if (elem < 10) {
           return (elem = `0${elem}`);
